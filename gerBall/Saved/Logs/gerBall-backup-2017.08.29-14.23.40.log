@@ -1,0 +1,240 @@
+﻿[2016.06.06-15.14.59:551][  0]Log file open, 06/06/16 16:14:59
+[2016.06.06-15.14.59:551][  0]LogInit:Display: Running engine for game: gerBall
+[2016.06.06-15.14.59:551][  0]LogInit:Display: Project file not found: ../../../gerBall/gerBall.uproject
+[2016.06.06-15.14.59:551][  0]LogInit:Display: 	Attempting to find via project info helper.
+[2016.06.06-15.14.59:551][  0]LogUProjectInfo: Found projects:
+[2016.06.06-15.14.59:551][  0]LogModuleManager:Warning: ModuleManager: Module 'HTTPChunkInstaller' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.06.06-15.14.59:551][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.06.06-15.14.59:551][  0]LogStats: Stats thread started
+[2016.06.06-15.14.59:551][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.06.06-15.14.59:551][  0]LogInit: API Version: 2579680
+[2016.06.06-15.14.59:551][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:16:31
+[2016.06.06-15.14.59:551][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.06.06-15.14.59:551][  0]LogInit: Build Configuration: Development
+[2016.06.06-15.14.59:551][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2016.06.06-15.14.59:551][  0]LogInit: Command line:  
+[2016.06.06-15.14.59:551][  0]LogInit: Base directory: I:/Unreal/gerBall v1.1/Engine/Binaries/Win64/
+[2016.06.06-15.14.59:551][  0]LogInit: Rocket: 0
+[2016.06.06-15.14.59:585][  0]LogInit: Using libcurl 7.41.0
+[2016.06.06-15.14.59:585][  0]LogInit:  - built for x86_64-pc-win32
+[2016.06.06-15.14.59:585][  0]LogInit:  - supports SSL with WinSSL
+[2016.06.06-15.14.59:585][  0]LogInit:  - other features:
+[2016.06.06-15.14.59:585][  0]LogInit:      CURL_VERSION_SSL
+[2016.06.06-15.14.59:585][  0]LogInit:      CURL_VERSION_IPV6
+[2016.06.06-15.14.59:585][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.06.06-15.14.59:585][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.06.06-15.14.59:585][  0]LogInit:      CURL_VERSION_IDN
+[2016.06.06-15.14.59:597][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.06.06-15.14.59:597][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.06.06-15.14.59:601][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.06.06-15.14.59:601][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.06.06-15.14.59:601][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.06.06-15.14.59:601][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.06.06-15.14.59:634][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.06.06-15.14.59:687][  0]LogInit: Object subsystem initialized
+[2016.06.06-15.14.59:733][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.06.06-15.14.59:733][  0]LogConsoleResponse:Warning:   Found in ini file '../../../gerBall/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.06.06-15.14.59:734][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.06.06-15.14.59:734][  0]LogConsoleResponse:Warning:   Found in ini file '../../../gerBall/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.06.06-15.14.59:734][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.06.06-15.14.59:734][  0]LogConsoleResponse:Warning:   Found in ini file '../../../gerBall/Saved/Config/WindowsNoEditor/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.06.06-15.14.59:802][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.06.06-15.14.59:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2016.06.06-15.14.59:902][  0]LogInit: Computer: SC012495-DA13
+[2016.06.06-15.14.59:902][  0]LogInit: User: MCC14103001
+[2016.06.06-15.14.59:903][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.06.06-15.14.59:903][  0]LogInit: High frequency timer resolution =3.318437 MHz
+[2016.06.06-15.14.59:904][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.06.06-15.14.59:904][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.06-15.14.59:904][  0]LogMemory: Process Physical Memory: 31.35 MB used, 31.35 MB peak
+[2016.06.06-15.14.59:904][  0]LogMemory: Process Virtual Memory: 20.06 MB used, 20.06 MB peak
+[2016.06.06-15.14.59:904][  0]LogMemory: Physical Memory: 7841.29 MB used, 32710.88 MB total
+[2016.06.06-15.14.59:904][  0]LogMemory: Virtual Memory: 180.84 MB used, 8388608.00 MB total
+[2016.06.06-15.15.01:862][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2016.06.06-15.15.02:867][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.06.06-15.15.02:867][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 16099MB of shared system memory, 2 output[s]
+[2016.06.06-15.15.02:867][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.06.06-15.15.02:889][  0]LogD3D11RHI: InitD3DDevice
+[2016.06.06-15.15.02:893][  0]LogD3D11RHI: !Direct3DDevice
+[2016.06.06-15.15.02:894][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.06.06-15.15.02:923][  0]LogD3D11RHI: Async texture creation enabled
+[2016.06.06-15.15.05:247][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.06.06-15.15.08:066][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.06.06-15.15.08:575][  0]LogD3D11RHI: InitD3DDevice
+[2016.06.06-15.15.08:676][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../gerBall/Content/Movies/Default_Startup.mp4
+[2016.06.06-15.15.08:730][  0]LogSockets:Warning: Failed to create socket DGram [SlateRemoteServerSocket]
+[2016.06.06-15.15.08:731][  0]SlateRemoteServer: Failed to create server socket on 0.0.0.0:41765
+[2016.06.06-15.15.08:737][  0]LogObj: 21750 objects as part of root set at end of initial load.
+[2016.06.06-15.15.08:737][  0]LogUObjectAllocator: 4322120 out of 0 bytes used by permanent object pool.
+[2016.06.06-15.15.08:754][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TableViewHeader.png' error.
+[2016.06.06-15.15.08:756][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TableViewHeader.png
+[2016.06.06-15.15.08:758][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate//Docking/TabContentArea.png' error.
+[2016.06.06-15.15.08:758][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate//Docking/TabContentArea.png
+[2016.06.06-15.15.08:759][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/ProgressBar_Background.png' error.
+[2016.06.06-15.15.08:759][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/ProgressBar_Background.png
+[2016.06.06-15.15.08:761][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Normal.png' error.
+[2016.06.06-15.15.08:761][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Normal.png
+[2016.06.06-15.15.08:762][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Selected.png' error.
+[2016.06.06-15.15.08:763][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Selected.png
+[2016.06.06-15.15.08:764][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/TaskGraph_Mono.png' error.
+[2016.06.06-15.15.08:764][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/TaskGraph_Mono.png
+[2016.06.06-15.15.08:766][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/SortUpArrow.png' error.
+[2016.06.06-15.15.08:767][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/SortUpArrow.png
+[2016.06.06-15.15.08:770][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/SortDownArrow.png' error.
+[2016.06.06-15.15.08:770][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/SortDownArrow.png
+[2016.06.06-15.15.08:771][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/Home16x16.png' error.
+[2016.06.06-15.15.08:771][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/Home16x16.png
+[2016.06.06-15.15.08:774][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ToParent.png' error.
+[2016.06.06-15.15.08:774][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ToParent.png
+[2016.06.06-15.15.08:775][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/ComboArrow.png' error.
+[2016.06.06-15.15.08:775][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/ComboArrow.png
+[2016.06.06-15.15.08:812][  0]LogEngine: Initializing Engine...
+[2016.06.06-15.15.08:910][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2016.06.06-15.15.08:953][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2016.06.06-15.15.09:254][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.06.06-15.15.09:282][  0]LogInit: FAudioDevice initialized.
+[2016.06.06-15.15.09:283][  0]LogInit: Texture streaming: Disabled
+[2016.06.06-15.15.09:287][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.06.06-15.15.09:287][  0]LogAnalytics: [UEGame.UnrealEngine.Release|CAF073B748C1776EB5FBEDB3DCCC3350|UE4Game] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2016.06.06-15.15.09:287][  0]LogAnalytics: [UEGame.UnrealEngine.Release|CAF073B748C1776EB5FBEDB3DCCC3350|UE4Game] SetUserId db9b8b504b0da368272054a63b52d733|ed152e1568804cd0a8e4142c462c52ce|df0327b4-0967-464a-a2ea-638b8e3b893e
+[2016.06.06-15.15.09:287][  0]LogAnalytics: [UEGame.UnrealEngine.Release|CAF073B748C1776EB5FBEDB3DCCC3350|UE4Game] AnalyticsET::StartSession
+[2016.06.06-15.15.09:706][  0]LogNet: Browse: /Game/gerBallTestLvl?Name=Player
+[2016.06.06-15.15.09:706][  0]LogLoad: LoadMap: /Game/gerBallTestLvl?Name=Player
+[2016.06.06-15.15.09:807][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000937D2A0
+[2016.06.06-15.15.09:874][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.06.06-15.15.09:874][  0]LogMemory: Process Physical Memory: 129.89 MB used, 130.98 MB peak
+[2016.06.06-15.15.09:874][  0]LogMemory: Process Virtual Memory: 123.56 MB used, 123.56 MB peak
+[2016.06.06-15.15.09:874][  0]LogMemory: Physical Memory: 7940.83 MB used, 32710.88 MB total
+[2016.06.06-15.15.09:874][  0]LogMemory: Virtual Memory: 438.99 MB used, 8388608.00 MB total
+[2016.06.06-15.15.09:874][  0]LogMemory: 
+[2016.06.06-15.15.09:875][  0]LogMemory: Allocator Stats for binned:
+[2016.06.06-15.15.09:875][  0]LogMemory: Current Memory 36.53 MB used, plus 3.31 MB waste
+[2016.06.06-15.15.09:875][  0]LogMemory: Peak Memory 44.68 MB used, plus 2.47 MB waste
+[2016.06.06-15.15.09:875][  0]LogMemory: Current OS Memory 39.84 MB, peak 47.16 MB
+[2016.06.06-15.15.09:875][  0]LogMemory: Current Waste 0.67 MB, peak 0.96 MB
+[2016.06.06-15.15.09:875][  0]LogMemory: Current Used 36.53 MB, peak 44.68 MB
+[2016.06.06-15.15.09:875][  0]LogMemory: Current Slack 2.64 MB
+[2016.06.06-15.15.09:875][  0]LogMemory: Allocs       106586 Current /  1038884 Total
+[2016.06.06-15.15.09:875][  0]LogMemory: 
+[2016.06.06-15.15.09:876][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.06.06-15.15.09:876][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.06.06-15.15.09:876][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         16         4         4      13238       208880      16      16     206K       50K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         32         9         9      17591        95954      32      32     549K       27K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         48         8         8       9255        41719      48      48     433K       79K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         64        16        16      15951        73516      64      64     996K       28K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         80         7         7       5537        50341      80      80     432K       16K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:         96         5         5       2986        51960      96      96     279K       41K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:        112         4         4       1528        26348     112     112     167K       89K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:        128        33        33      16706        43274     128     128    2088K       24K        0K    100.00%
+[2016.06.06-15.15.09:876][  0]LogMemory:        160        16        31       6199       103612     144     160     968K       55K       31K     96.97%
+[2016.06.06-15.15.09:876][  0]LogMemory:        192        17        17       5199       105783     176     192     974K      113K       35K     96.78%
+[2016.06.06-15.15.09:876][  0]LogMemory:        224         4         4        983        96437     208     224     215K       41K        8K     96.88%
+[2016.06.06-15.15.09:876][  0]LogMemory:        256         3         3        717        48559     240     256     179K       13K        7K     96.35%
+[2016.06.06-15.15.09:876][  0]LogMemory:        288         5         5       1112        26993     272     288     312K        8K        9K     97.19%
+[2016.06.06-15.15.09:876][  0]LogMemory:        320         4         4        685        20019     304     320     214K       41K        5K     98.05%
+[2016.06.06-15.15.09:876][  0]LogMemory:        384        12        12       1950        13750     336     384     731K       34K       66K     91.41%
+[2016.06.06-15.15.09:876][  0]LogMemory:        448        12        12       1678         4360     400     448     734K       33K       47K     93.88%
+[2016.06.06-15.15.09:876][  0]LogMemory:        512        10        10       1146         4272     464     512     573K       67K       30K     95.31%
+[2016.06.06-15.15.09:876][  0]LogMemory:        576        11        11        884         1617     528     576     497K      203K       30K     95.74%
+[2016.06.06-15.15.09:876][  0]LogMemory:        640         9        10        574         1162     592     640     358K      216K       20K     96.53%
+[2016.06.06-15.15.09:876][  0]LogMemory:        704         4         4        272          615     656     704     187K       69K        4K     98.44%
+[2016.06.06-15.15.09:876][  0]LogMemory:        768         3         3        195         2491     720     768     146K       46K        3K     98.44%
+[2016.06.06-15.15.09:876][  0]LogMemory:        896         3         4        207          629     784     896     181K       11K        8K     95.83%
+[2016.06.06-15.15.09:876][  0]LogMemory:       1024         2         3        105          498     912    1024     105K       23K        2K     98.44%
+[2016.06.06-15.15.09:877][  0]LogMemory:       1168         3         3        106          467    1040    1168     120K       72K        6K     96.88%
+[2016.06.06-15.15.09:877][  0]LogMemory:       1360         7         7        276         3210    1184    1360     366K       81K       23K     94.87%
+[2016.06.06-15.15.09:878][  0]LogMemory:       1632         8         8        268          642    1376    1632     427K       83K       29K     94.34%
+[2016.06.06-15.15.09:878][  0]LogMemory:       2048         9         9        184          678    1648    2048     368K      208K       39K     93.23%
+[2016.06.06-15.15.09:878][  0]LogMemory:       2336         3         4         72         3400    2064    2336     164K       28K       17K     91.15%
+[2016.06.06-15.15.09:878][  0]LogMemory:       2720         5         6        104          504    2352    2720     276K       43K       14K     95.63%
+[2016.06.06-15.15.09:878][  0]LogMemory:       3264         9        10        146         2152    2736    3264     465K      109K       24K     95.83%
+[2016.06.06-15.15.09:878][  0]LogMemory:       4096        12        14        159          706    3280    4096     636K      132K       53K     93.10%
+[2016.06.06-15.15.09:878][  0]LogMemory:       4672         7         9         78         1381    4112    4672     355K       93K       11K     97.54%
+[2016.06.06-15.15.09:878][  0]LogMemory:       5456         9        14         94          392    4688    5456     500K       76K       41K     92.88%
+[2016.06.06-15.15.09:878][  0]LogMemory:       6544        13        15        108          322    5472    6544     690K      141K       56K     93.27%
+[2016.06.06-15.15.09:878][  0]LogMemory:       8192         7         9         46          920    6560    8192     368K       80K       26K     94.20%
+[2016.06.06-15.15.09:878][  0]LogMemory:       9360         6         6         36          101    8208    9360     329K       55K       18K     95.31%
+[2016.06.06-15.15.09:878][  0]LogMemory:      10912         4         5         24           56    9376   10896     255K        1K       18K     92.97%
+[2016.06.06-15.15.09:878][  0]LogMemory:      13104         6         6         26           82   10960   13056     332K       52K       25K     93.49%
+[2016.06.06-15.15.09:878][  0]LogMemory:      16384         8        10         26          150   13120   16384     416K       96K       26K     94.92%
+[2016.06.06-15.15.09:878][  0]LogMemory:      21840        11        12         31           86   16400   21776     661K       43K      108K     84.66%
+[2016.06.06-15.15.09:878][  0]LogMemory:      32768         7         8         14           71   21904   32544     448K        0K       97K     78.35%
+[2016.06.06-15.15.09:878][  0]LogMemory: 
+[2016.06.06-15.15.09:878][  0]LogMemory: 21440K allocated in pools (with 2720K slack and 936K waste). Efficiency 95.63%
+[2016.06.06-15.15.09:878][  0]LogMemory: Allocations 106497 Current / 1038110 Total (in 335 pools)
+[2016.06.06-15.15.09:878][  0]LogMemory: 
+[2016.06.06-15.15.09:938][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'WidgetTree': WidgetBlueprint /Script/UMGEditor.Default__WidgetBlueprint
+[2016.06.06-15.15.09:948][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'WidgetTree': WidgetBlueprint /Script/UMGEditor.Default__WidgetBlueprint
+[2016.06.06-15.15.09:989][  0]LogLinker:Warning: CreateImport: Failed to load Outer for resource 'WidgetTree': WidgetBlueprint /Script/UMGEditor.Default__WidgetBlueprint
+[2016.06.06-15.15.11:119][  0]LogModuleManager:Warning: ModuleManager: Module 'GameplayDebugger' not found - its StaticallyLinkedModuleInitializers function is null.
+[2016.06.06-15.15.11:121][  0]LogAIModule: Creating AISystem for world gerBallTestLvl
+[2016.06.06-15.15.11:127][  0]LogWorld: Game class is 'bpGameMode_C'
+[2016.06.06-15.15.11:237][  0]LogWorld: Bringing World /Game/gerBallTestLvl.gerBallTestLvl up for play (max tick rate 0) at 2016.06.06-16.15.11
+[2016.06.06-15.15.11:336][  0]LogWorld: Bringing up level for play took: 0.175849
+[2016.06.06-15.15.11:376][  0]LogEngine: Onscreen warnings/messages are now DISABLED
+[2016.06.06-15.15.11:471][  0]LogInit:Display: Game Engine Initialized.
+[2016.06.06-15.15.11:695][  0]LogAssetRegistry: FAssetRegistry took 0.0130 seconds to start up
+[2016.06.06-15.15.11:698][  0]LogLoad: Full Startup: 18.68 seconds (BP compile: 0.00 seconds)
+[2016.06.06-15.15.12:943][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.06.06-15.15.13:149][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.06.06-15.15.13:422][  1]LogRenderer: Reallocating scene render targets to support 1600x904 (Frame:2).
+[2016.06.06-15.15.31:732][121]LogEngine: All Windows Closed
+[2016.06.06-15.15.31:732][121]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.06.06-15.15.32:255][122]LogExit: Preparing to exit.
+[2016.06.06-15.15.32:368][122]LogExit: Game engine shut down
+[2016.06.06-15.15.32:369][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000093791A0
+[2016.06.06-15.15.32:476][122]LogExit: Object subsystem successfully closed.
+[2016.06.06-15.15.32:509][122]LogD3D11RHI: Shutdown
+[2016.06.06-15.15.32:509][122]LogD3D11RHI: CleanupD3DDevice
+[2016.06.06-15.15.32:540][122]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.06.06-15.15.32:544][122]LogModuleManager: Shutting down and abandoning module AssetRegistry (52)
+[2016.06.06-15.15.32:545][122]LogModuleManager: Shutting down and abandoning module AutomationWorker (51)
+[2016.06.06-15.15.32:545][122]LogModuleManager: Shutting down and abandoning module CharacterAI (50)
+[2016.06.06-15.15.32:545][122]LogModuleManager: Shutting down and abandoning module AIModule (48)
+[2016.06.06-15.15.32:546][122]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (47)
+[2016.06.06-15.15.32:546][122]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (46)
+[2016.06.06-15.15.32:546][122]LogModuleManager: Shutting down and abandoning module AnalyticsET (45)
+[2016.06.06-15.15.32:546][122]LogModuleManager: Shutting down and abandoning module Analytics (44)
+[2016.06.06-15.15.32:546][122]LogModuleManager: Shutting down and abandoning module ProfilerService (43)
+[2016.06.06-15.15.32:782][122]LogModuleManager: Shutting down and abandoning module TaskGraph (42)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module SteamVRController (40)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module SteamVR (39)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (38)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module OculusRift (37)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (36)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module CableComponent (35)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module UdpMessaging (34)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module Paper2D (33)
+[2016.06.06-15.15.32:789][122]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (32)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module Media (31)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module WmfMedia (30)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module ImageWrapper (29)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module UMG (28)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module Slate (27)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module SessionServices (26)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2016.06.06-15.15.32:790][122]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (24)
+[2016.06.06-15.15.32:791][122]LogModuleManager: Shutting down and abandoning module XAudio2 (23)
+[2016.06.06-15.15.32:791][122]LogModuleManager: Shutting down and abandoning module Networking (21)
+[2016.06.06-15.15.32:791][122]LogModuleManager: Shutting down and abandoning module Core (20)
+[2016.06.06-15.15.32:791][122]LogModuleManager: Shutting down and abandoning module LeapMotionController (19)
+[2016.06.06-15.15.32:805][122]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2016.06.06-15.15.32:805][122]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.06.06-15.15.32:805][122]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module Renderer (8)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module Engine (7)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module NetworkFile (5)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module SandboxFile (3)
+[2016.06.06-15.15.32:810][122]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.06.06-15.15.32:811][122]LogExit: Exiting.
+[2016.06.06-15.15.32:812][122]Log file closed, 06/06/16 16:15:32
